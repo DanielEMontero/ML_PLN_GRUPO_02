@@ -10,7 +10,7 @@ import joblib
 import sys
 import os
 
-modelo = joblib.load(os.path.dirname(__file__) + '/modelo_regresion.pkl')
+modelo = joblib.load(os.path.dirname(__file__) + '/modelo_arbol.pkl')
 encoder_genre = joblib.load(os.path.dirname(__file__) + '/encoder_genre.pkl')
 encoder_artist = joblib.load(os.path.dirname(__file__) + '/encoder_artist.pkl')
 scaler = joblib.load(os.path.dirname(__file__) + '/scaler.pkl')
