@@ -4,6 +4,8 @@ Created on Sun Apr 20 17:57:25 2025
 
 @author: Juanca Mejía
 """
+!pip install flask
+
 
 from flask import Flask
 from flask_restx import Api, Resource, fields
